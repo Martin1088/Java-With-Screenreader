@@ -1,0 +1,46 @@
+@startmindmap
++ /
+++ bin
+++ boot
+++ dev
+++ etc
+' mehrere Unterverzeichnisse
++++ init.d
++++ syscontig
++++ httpd
+
+++ home
+++ lib
+++ cdrom
+++ mnt
+++ proc
+++ root
+++ sbin
+++ tmp
+++ usr
+' merhere Verzweigungen
++++ bin
++++ local
+' noch zwei Verzweigungen
+++++ bin
+++++ sbin
+' eine Ebene zurück
++++ include
++++ lib
++++ man
++++ src
+' eine Verzweigung
+++++ linux
+' wieder in die zweite Ebene
+++ var
+' mehrerere Verzweigungen
++++ tmp
++++ spool
+' drei Verzweigungen
+++++ lpd
+++++ mail
+++++ uucp
+
+
+@endmindmap
+

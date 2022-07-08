@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1159px" preserveAspectRatio="none" style="width:341px;height:1159px;background:#FFFFFF;" version="1.1" viewBox="0 0 341 1159" width="341px" zoomAndPan="magnify"><defs/><g><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="24" x="10" y="560.0879"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="20" y="584.6211">/</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="84" y="20"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="94" y="44.5332">bin</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,38.8047 74,38.8047 L84,38.8047 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="48" x="84" y="77.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="94" y="102.1426">boot</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,96.4141 74,96.4141 L84,96.4141 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="43" x="84" y="135.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="94" y="159.752">dev</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,154.0234 74,154.0234 L84,154.0234 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="84" y="192.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="94" y="217.3613">etc</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="50" x="173" y="135.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="183" y="159.752">init.d</text><path d="M123,211.6328 L133,211.6328 C148,211.6328 148,154.0234 163,154.0234 L173,154.0234 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="79" x="173" y="192.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="183" y="217.3613">syscontig</text><path d="M123,211.6328 L133,211.6328 C148,211.6328 148,211.6328 163,211.6328 L173,211.6328 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="52" x="173" y="250.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="183" y="274.9707">httpd</text><path d="M123,211.6328 L133,211.6328 C148,211.6328 148,269.2422 163,269.2422 L173,269.2422 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,211.6328 74,211.6328 L84,211.6328 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="55" x="84" y="308.0469"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="94" y="332.5801">home</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,326.8516 74,326.8516 L84,326.8516 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="34" x="84" y="365.6563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="94" y="390.1895">lib</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,384.4609 74,384.4609 L84,384.4609 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="59" x="84" y="423.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="94" y="447.7988">cdrom</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,442.0703 74,442.0703 L84,442.0703 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="43" x="84" y="480.875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="94" y="505.4082">mnt</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,499.6797 74,499.6797 L84,499.6797 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="48" x="84" y="538.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="94" y="563.0176">proc</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,557.2891 74,557.2891 L84,557.2891 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="45" x="84" y="596.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="94" y="620.627">root</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,614.8984 74,614.8984 L84,614.8984 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="46" x="84" y="653.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="94" y="678.2363">sbin</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,672.5078 74,672.5078 L84,672.5078 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="43" x="84" y="711.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="94" y="735.8457">tmp</text><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,730.1172 74,730.1172 L84,730.1172 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="40" x="84" y="768.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="94" y="793.4551">usr</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="174" y="610.4961"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="184" y="635.0293">bin</text><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,629.3008 164,629.3008 L174,629.3008 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="49" x="174" y="668.1055"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="184" y="692.6387">local</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="273" y="639.3008"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="283" y="663.834">bin</text><path d="M223,686.9102 L233,686.9102 C248,686.9102 248,658.1055 263,658.1055 L273,658.1055 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="46" x="273" y="696.9102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="283" y="721.4434">sbin</text><path d="M223,686.9102 L233,686.9102 C248,686.9102 248,715.7148 263,715.7148 L273,715.7148 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,686.9102 164,686.9102 L174,686.9102 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="65" x="174" y="754.5195"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="184" y="779.0527">include</text><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,773.3242 164,773.3242 L174,773.3242 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="34" x="174" y="812.1289"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="184" y="836.6621">lib</text><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,830.9336 164,830.9336 L174,830.9336 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="47" x="174" y="869.7383"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="184" y="894.2715">man</text><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,888.543 164,888.543 L174,888.543 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="174" y="927.3477"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="184" y="951.8809">src</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="48" x="263" y="927.3477"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="273" y="951.8809">linux</text><path d="M213,946.1523 L223,946.1523 C238,946.1523 238,946.1523 253,946.1523 L263,946.1523 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M124,787.7266 L134,787.7266 C149,787.7266 149,946.1523 164,946.1523 L174,946.1523 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,787.7266 74,787.7266 L84,787.7266 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="40" x="84" y="1042.5664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="94" y="1067.0996">var</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="43" x="174" y="984.957"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="184" y="1009.4902">tmp</text><path d="M124,1061.3711 L134,1061.3711 C149,1061.3711 149,1003.7617 164,1003.7617 L174,1003.7617 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="54" x="174" y="1042.5664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="184" y="1067.0996">spool</text><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="39" x="278" y="984.957"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="288" y="1009.4902">lpd</text><path d="M228,1061.3711 L238,1061.3711 C253,1061.3711 253,1003.7617 268,1003.7617 L278,1003.7617 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="45" x="278" y="1042.5664"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="288" y="1067.0996">mail</text><path d="M228,1061.3711 L238,1061.3711 C253,1061.3711 253,1061.3711 268,1061.3711 L278,1061.3711 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><rect fill="#F1F1F1" height="37.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:1.5;" width="51" x="278" y="1100.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="288" y="1124.709">uucp</text><path d="M228,1061.3711 L238,1061.3711 C253,1061.3711 253,1118.9805 268,1118.9805 L278,1118.9805 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M124,1061.3711 L134,1061.3711 C149,1061.3711 149,1061.3711 164,1061.3711 L174,1061.3711 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><path d="M34,578.8926 L44,578.8926 C59,578.8926 59,1061.3711 74,1061.3711 L84,1061.3711 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[258ba135bd89ddb81748451fc5a86e22]
+@startmindmap
++ /
+++ bin
+++ boot
+++ dev
+++ etc
+' mehrere Unterverzeichnisse
++++ init.d
++++ syscontig
++++ httpd
+
+++ home
+++ lib
+++ cdrom
+++ mnt
+++ proc
+++ root
+++ sbin
+++ tmp
+++ usr
+' merhere Verzweigungen
++++ bin
++++ local
+' noch zwei Verzweigungen
+++++ bin
+++++ sbin
+' eine Ebene zurück
++++ include
++++ lib
++++ man
++++ src
+' eine Verzweigung
+++++ linux
+' wieder in die zweite Ebene
+++ var
+' mehrerere Verzweigungen
++++ tmp
++++ spool
+' drei Verzweigungen
+++++ lpd
+++++ mail
+++++ uucp
+
+
+@endmindmap
+
+@startmindmap
++ /
+++ bin
+++ boot
+++ dev
+++ etc
++++ init.d
++++ syscontig
++++ httpd
+
+++ home
+++ lib
+++ cdrom
+++ mnt
+++ proc
+++ root
+++ sbin
+++ tmp
+++ usr
++++ bin
++++ local
+++++ bin
+++++ sbin
++++ include
++++ lib
++++ man
++++ src
+++++ linux
+++ var
++++ tmp
++++ spool
+++++ lpd
+++++ mail
+++++ uucp
+
+
+@endmindmap
+
+PlantUML version 1.2022.4(Sat Apr 09 15:29:17 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

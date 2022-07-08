@@ -1,0 +1,21 @@
+@startuml
+cloud {
+[Internet]
+}
+[Router 1]
+[Server]
+[Router 2]
+[Switch 1 20 PCs]
+[Router 3]
+[Switch 2 325 PCs]
+[Switch 3 62 PCs]
+
+' Verbindungen
+[Internet] - [Router 1]
+[Router 1] -- [Server]
+[Router 1] - [Router 2]
+[Router 2] -- [Switch 1 20 PCs]
+[Router 2] - [Router 3]
+[Router 3] -- [Switch 2 325 PCs]
+[Router 3] -- [Switch 3 62 PCs]
+@enduml

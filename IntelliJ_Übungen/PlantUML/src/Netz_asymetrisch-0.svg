@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="184px" preserveAspectRatio="none" style="width:775px;height:184px;background:#FFFFFF;" version="1.1" viewBox="0 0 775 184" width="775px" zoomAndPan="magnify"><defs/><g><g id="cluster_##42"><path d="M19.6668,16.6111 C22.8731,9.0523 28.7328,10.2091 32.9975,15.5142 C35.7143,9.4537 39.9656,9.3184 44.4449,13.5548 C48.9183,6 54.5583,6.8227 58.8784,13.7081 C62.8192,7.4394 67.6868,7.5347 72.4483,12.7373 C76.3451,7.3203 81.0828,7.5288 84.7091,13.0409 C90.7286,6.6849 95.1999,7.8282 98.5048,15.6774 C101.6542,9.2402 105.212,10.1226 109.7216,14.2305 C115.2743,8.4561 120.077,7.788 124.2221,15.7197 C132.6752,18.4198 133.9608,25.6832 126.8886,31.0787 C134.7618,34.721 136.0512,42.893 128.659,48.1211 C135.5571,55.1606 133.5656,60.5657 124.9149,63.9204 C132.5665,68.7983 131.0968,75.5806 123.6331,79.1896 C120.603,86.485 114.5313,87.6806 109.6012,81.1128 C107.2294,87.0418 101.4047,87.4978 97.5613,82.7764 C94.1202,89.6371 88.9751,90.9979 83.9687,84.3517 C81.5232,90.5965 75.5041,91.0663 71.4746,86.1201 C67.6324,90.7823 61.152,91.2298 58.7915,84.4743 C55.19,89.6321 48.8994,89.4418 46.2342,83.4225 C40.9418,90.1416 35.8428,89.0309 32.0863,81.8583 C27.2251,87.9449 21.6268,86.6603 18.4786,80.0258 C8.957,77.1787 7.737,70.355 15.4707,64.2234 C6.8155,60.7668 6,54.7003 12.6591,48.5044 C6.4608,41.7911 8.7294,34.56 17.3603,32.0952 C10.6949,25.5899 12.6287,21.0751 19.6668,16.6111 " style="stroke:#181818;stroke-width:1.0;fill:none;"/></g><!--MD5=[9eb86c2b3d925a16ba1bdada40016c70]
+entity Internet--><g id="elem_Internet"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="26.417" y="22.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="94.417" y="27.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="92.417" y="29.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="92.417" y="33.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="41.417" y="57.0732">Internet</text></g><!--MD5=[4eddb9c1330f1e6587fb5124f6ddfa69]
+entity Router 1--><g id="elem_Router 1"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="149.917" y="22.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="224.917" y="27.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="222.917" y="29.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="222.917" y="33.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="164.917" y="57.0732">Router 1</text></g><!--MD5=[b1435b213846e3ddcd1e6c1cd6b83b9a]
+entity Server--><g id="elem_Server"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82" x="148.417" y="130.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="210.417" y="135.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="208.417" y="137.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="208.417" y="141.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="163.417" y="165.0732">Server</text></g><!--MD5=[fb3ed0f5e6381112634a59bc210237bf]
+entity Router 2--><g id="elem_Router 2"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="288.917" y="22.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="363.917" y="27.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="361.917" y="29.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="361.917" y="33.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="303.917" y="57.0732">Router 2</text></g><!--MD5=[fb7883cf8ca5369e99903a0c4140ee3f]
+entity Switch 1 20 PCs--><g id="elem_Switch 1 20 PCs"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="265.417" y="130.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="387.417" y="135.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="385.417" y="137.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="385.417" y="141.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="280.417" y="165.0732">Switch 1 20 PCs</text></g><!--MD5=[ec7b2f1d397d203242fcff452f58ed31]
+entity Router 3--><g id="elem_Router 3"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="469.917" y="22.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="544.917" y="27.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="542.917" y="29.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="542.917" y="33.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="484.917" y="57.0732">Router 3</text></g><!--MD5=[b2cc50f766a12d8c2efb61b9698d6cbf]
+entity Switch 2 325 PCs--><g id="elem_Switch 2 325 PCs"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="442.417" y="130.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="572.417" y="135.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="570.417" y="137.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="570.417" y="141.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="457.417" y="165.0732">Switch 2 325 PCs</text></g><!--MD5=[70e361cb0b3c90e86f3316c3f4b30d6f]
+entity Switch 3 62 PCs--><g id="elem_Switch 3 62 PCs"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="627.417" y="130.54"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="749.417" y="135.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="747.417" y="137.54"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="747.417" y="141.54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="642.417" y="165.0732">Switch 3 62 PCs</text></g><!--MD5=[87080bd0b480acef80428097c370b283]
+link Internet to Router 1--><g id="link_Internet_Router 1"><path d="M114.567,46.54 C126.327,46.54 138.087,46.54 149.847,46.54 " fill="none" id="Internet-Router 1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa0a05dcfc3969289d18e8b3ef3ce727]
+link Router 1 to Server--><g id="link_Router 1_Server"><path d="M195.677,70.54 C194.347,88.2 192.517,112.48 191.177,130.22 " fill="none" id="Router 1-Server" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa1ae242246f053240136679c48546f9]
+link Router 1 to Router 2--><g id="link_Router 1_Router 2"><path d="M244.927,46.54 C259.577,46.54 274.237,46.54 288.887,46.54 " fill="none" id="Router 1-Router 2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[276ee94959828d02d03a4d41d6fa50e4]
+link Router 2 to Switch 1 20 PCs--><g id="link_Router 2_Switch 1 20 PCs"><path d="M336.417,70.54 C336.417,88.2 336.417,112.48 336.417,130.22 " fill="none" id="Router 2-Switch 1 20 PCs" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fc934c711dc69ba1eacddb34bc9f7c1c]
+link Router 2 to Router 3--><g id="link_Router 2_Router 3"><path d="M384.137,46.54 C412.687,46.54 441.237,46.54 469.777,46.54 " fill="none" id="Router 2-Router 3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[11a7af500fa90ccef125eabdfa0188de]
+link Router 3 to Switch 2 325 PCs--><g id="link_Router 3_Switch 2 325 PCs"><path d="M517.417,70.54 C517.417,88.2 517.417,112.48 517.417,130.22 " fill="none" id="Router 3-Switch 2 325 PCs" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a2142c19f21ff9aaa6ec558426d0fed]
+link Router 3 to Switch 3 62 PCs--><g id="link_Router 3_Switch 3 62 PCs"><path d="M556.687,70.54 C586.947,88.26 628.597,112.65 658.907,130.4 " fill="none" id="Router 3-Switch 3 62 PCs" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a9d56c3f5e8c8d90aebef4ab7a950e1c]
+@startuml
+cloud {
+[Internet]
+}
+[Router 1]
+[Server]
+[Router 2]
+[Switch 1 20 PCs]
+[Router 3]
+[Switch 2 325 PCs]
+[Switch 3 62 PCs]
+
+' Verbindungen
+[Internet] - [Router 1]
+[Router 1] - - [Server]
+[Router 1] - [Router 2]
+[Router 2] - - [Switch 1 20 PCs]
+[Router 2] - [Router 3]
+[Router 3] - - [Switch 2 325 PCs]
+[Router 3] - - [Switch 3 62 PCs]
+@enduml
+
+@startuml
+cloud {
+[Internet]
+}
+[Router 1]
+[Server]
+[Router 2]
+[Switch 1 20 PCs]
+[Router 3]
+[Switch 2 325 PCs]
+[Switch 3 62 PCs]
+
+[Internet] - [Router 1]
+[Router 1] - - [Server]
+[Router 1] - [Router 2]
+[Router 2] - - [Switch 1 20 PCs]
+[Router 2] - [Router 3]
+[Router 3] - - [Switch 2 325 PCs]
+[Router 3] - - [Switch 3 62 PCs]
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 15:29:17 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

@@ -1,0 +1,25 @@
+@startmindmap
++ Formelsammlung
+++ Watt P
++++ P = U^2 / R
++++ P = U * I
++++ P = R * I^2
+
+++ Volt U
++++ U = R * I
++++ U = P / I
++++ U = $\sqrt{P * R}$
+
+-- R Ohm
+--- R = U / I
+--- R = P / I^2
+--- R = U^2 / P
+
+-- I Strom
+--- I = U / R
+--- I = P / U
+--- I = $/sqrt{P / R}$
+
+@endmindmap
+
+

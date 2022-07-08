@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Professor
+actor Student
+actor Staff
+
+rectangle University-System {
+Professor --> (Grand Exam)
+Professor --> (Manage Courses)
+Professor ---> (Access Course Information)
+Student ---> (Access Course Information)
+Student ---> (Enroll in Course)
+Staff ---> (Access Course Information)
+Staff ---> (Manage Courses)
+}
+
+@enduml

@@ -1,0 +1,216 @@
+@startuml
+'table mrbs_area ##
+entity mrbs_area {
+* primary_key(id) int(4) auto_increment
+--
+* area_name varchar(30) unique
+--
+| Field                       | Type        | Null | Key | Default | Extra          |
+| disabled                    | tinyint(4)  | NO   |     | 0       |                |
+| sort_key                    | varchar(30) | NO   |     |         |                |
+| timezone                    | varchar(50) | YES  |     | NULL    |                |
+| area_admin_email            | text        | YES  |     | NULL    |                |
+| resolution                  | int(11)     | YES  |     | NULL    |                |
+| default_duration            | int(11)     | YES  |     | NULL    |                |
+| default_duration_all_day    | tinyint(4)  | NO   |     | 0       |                |
+| morningstarts               | int(11)     | YES  |     | NULL    |                |
+| morningstarts_minutes       | int(11)     | YES  |     | NULL    |                |
+| eveningends                 | int(11)     | YES  |     | NULL    |                |
+| eveningends_minutes         | int(11)     | YES  |     | NULL    |                |
+| private_enabled             | tinyint(4)  | YES  |     | NULL    |                |
+| private_default             | tinyint(4)  | YES  |     | NULL    |                |
+| private_mandatory           | tinyint(4)  | YES  |     | NULL    |                |
+| private_override            | varchar(32) | YES  |     | NULL    |                |
+| min_create_ahead_enabled    | tinyint(4)  | YES  |     | NULL    |                |
+| min_create_ahead_secs       | int(11)     | YES  |     | NULL    |                |
+| max_create_ahead_enabled    | tinyint(4)  | YES  |     | NULL    |                |
+| max_create_ahead_secs       | int(11)     | YES  |     | NULL    |                |
+| min_delete_ahead_enabled    | tinyint(4)  | YES  |     | NULL    |                |
+| min_delete_ahead_secs       | int(11)     | YES  |     | NULL    |                |
+| max_delete_ahead_enabled    | tinyint(4)  | YES  |     | NULL    |                |
+| max_delete_ahead_secs       | int(11)     | YES  |     | NULL    |                |
+| max_per_day_enabled         | tinyint(4)  | NO   |     | 0       |                |
+| max_per_day                 | int(11)     | NO   |     | 0       |                |
+| max_per_week_enabled        | tinyint(4)  | NO   |     | 0       |                |
+| max_per_week                | int(11)     | NO   |     | 0       |                |
+| max_per_month_enabled       | tinyint(4)  | NO   |     | 0       |                |
+| max_per_month               | int(11)     | NO   |     | 0       |                |
+| max_per_year_enabled        | tinyint(4)  | NO   |     | 0       |                |
+| max_per_year                | int(11)     | NO   |     | 0       |                |
+| max_per_future_enabled      | tinyint(4)  | NO   |     | 0       |                |
+| max_per_future              | int(11)     | NO   |     | 0       |                |
+| max_secs_per_day_enabled    | tinyint(4)  | NO   |     | 0       |                |
+| max_secs_per_day            | int(11)     | NO   |     | 0       |                |
+| max_secs_per_week_enabled   | tinyint(4)  | NO   |     | 0       |                |
+| max_secs_per_week           | int(11)     | NO   |     | 0       |                |
+| max_secs_per_month_enabled  | tinyint(4)  | NO   |     | 0       |                |
+| max_secs_per_month          | int(11)     | NO   |     | 0       |                |
+| max_secs_per_year_enabled   | tinyint(4)  | NO   |     | 0       |                |
+| max_secs_per_year           | int(11)     | NO   |     | 0       |                |
+| max_secs_per_future_enabled | tinyint(4)  | NO   |     | 0       |                |
+| max_secs_per_future         | int(11)     | NO   |     | 0       |                |
+| max_duration_enabled        | tinyint(4)  | NO   |     | 0       |                |
+| max_duration_secs           | int(11)     | NO   |     | 0       |                |
+| max_duration_periods        | int(11)     | NO   |     | 0       |                |
+| custom_html                 | text        | YES  |     | NULL    |                |
+| approval_enabled            | tinyint(4)  | YES  |     | NULL    |                |
+| reminders_enabled           | tinyint(4)  | YES  |     | NULL    |                |
+| enable_periods              | tinyint(4)  | YES  |     | NULL    |                |
+| periods                     | text        | YES  |     | NULL    |                |
+| confirmation_enabled        | tinyint(4)  | YES  |     | NULL    |                |
+| confirmed_default           | tinyint(4)  | YES  |     | NULL    |                |
+| times_along_top             | tinyint(4)  | NO   |     | 0       |                |
+| default_type                | char(1)     | NO   |     | E       |                |
+
+}
+' table mrbs_room ##
+entity mrbs_room {
+* primary_key(id) int (11) auto_increment
+--
+* foreign_key(area_id) int(11)
+--
+| Field            | Type         | Null | Key | Default | Extra          |
+| disabled         | tinyint(4)   | NO   |     | 0       |                |
+| room_name        | varchar(25)  | NO   |     |         |                |
+| sort_key         | varchar(25)  | NO   | MUL |         |                |
+| description      | varchar(60)  | YES  |     | NULL    |                |
+| capacity         | int(11)      | NO   |     | 0       |                |
+| room_admin_email | text         | YES  |     | NULL    |                |
+| invalid_types    | varchar(255) | YES  |     | NULL    |                |
+| custom_html      | text         | YES  |     | NULL    |                |
+}
+' table mrbs_entry ##
+entity mrbs_entry {
+* primary_key(id) int(11) auto_increment
+--
+foreign_key(repeat_id) int(11)
+--
+foreign_key(room_id) int(11)
+--
+| Field                       | Type                | Null | Key | Default             | Extra                         |
+| start_time                  | int(11)             | NO   | MUL | 0                   |                               |
+| end_time                    | int(11)             | NO   | MUL | 0                   |                               |
+| entry_type                  | int(11)             | NO   |     | 0                   |                               |
+| timestamp                   | timestamp           | NO   |     | current_timestamp() | on update current_timestamp() |
+| create_by                   | varchar(80)         | NO   |     |                     |                               |
+| modified_by                 | varchar(80)         | NO   |     |                     |                               |
+| name                        | varchar(80)         | NO   |     |                     |                               |
+| type                        | char(1)             | NO   |     | E                   |                               |
+| description                 | text                | YES  |     | NULL                |                               |
+| status                      | tinyint(3) unsigned | NO   |     | 0                   |                               |
+| reminded                    | int(11)             | YES  |     | NULL                |                               |
+| info_time                   | int(11)             | YES  |     | NULL                |                               |
+| info_user                   | varchar(80)         | YES  |     | NULL                |                               |
+| info_text                   | text                | YES  |     | NULL                |                               |
+| ical_uid                    | varchar(255)        | NO   |     |                     |                               |
+| ical_sequence               | smallint(6)         | NO   |     | 0                   |                               |
+| ical_recur_id               | varchar(16)         | YES  |     | NULL                |                               |
+| allow_registration          | tinyint(4)          | NO   |     | 0                   |                               |
+| registrant_limit            | int(11)             | NO   |     | 0                   |                               |
+| registrant_limit_enabled    | tinyint(4)          | NO   |     | 1                   |                               |
+| registration_opens          | int(11)             | NO   |     | 1209600             |                               |
+| registration_opens_enabled  | tinyint(4)          | NO   |     | 0                   |                               |
+| registration_closes         | int(11)             | NO   |     | 0                   |                               |
+| registration_closes_enabled | tinyint(4)          | NO   |     | 0                   |                               |
+}
+' table mrbs_repeat ##
+entity mrbs_repeat {
+* primary_key(id) int(11) auto_increment
+--
+foreign_key(room_id) int(11)
+--
+| Field          | Type                | Null | Key | Default             | Extra                         |
+| start_time     | int(11)             | NO   |     | 0                   |                               |
+| end_time       | int(11)             | NO   |     | 0                   |                               |
+| rep_type       | int(11)             | NO   |     | 0                   |                               |
+| end_date       | int(11)             | NO   |     | 0                   |                               |
+| rep_opt        | varchar(32)         | NO   |     |                     |                               |
+| timestamp      | timestamp           | NO   |     | current_timestamp() | on update current_timestamp() |
+| create_by      | varchar(80)         | NO   |     |                     |                               |
+| modified_by    | varchar(80)         | NO   |     |                     |                               |
+| name           | varchar(80)         | NO   |     |                     |                               |
+| type           | char(1)             | NO   |     | E                   |                               |
+| description    | text                | YES  |     | NULL                |                               |
+| rep_interval   | smallint(6)         | NO   |     | 1                   |                               |
+| month_absolute | smallint(6)         | YES  |     | NULL                |                               |
+| month_relative | varchar(4)          | YES  |     | NULL                |                               |
+| status         | tinyint(3) unsigned | NO   |     | 0                   |                               |
+| reminded       | int(11)             | YES  |     | NULL                |                               |
+| info_time      | int(11)             | YES  |     | NULL                |                               |
+| info_user      | varchar(80)         | YES  |     | NULL                |                               |
+| info_text      | text                | YES  |     | NULL                |                               |
+| ical_uid       | varchar(255)        | NO   |     |                     |                               |
+| ical_sequence  | smallint(6)         | NO   |     | 0                   |                               |
+}
+' table mrbs_participants ##
+entity mrbs_participants {
+* primary_key(id) int(11) auto_increment
+--
+* foreign_key(entry_id) int(11)
+--
+| Field      | Type         | Null | Key | Default | Extra          |
+| username   | varchar(191) | YES  |     | NULL    |                |
+| create_by  | varchar(255) | YES  |     | NULL    |                |
+| registered | int(11)      | YES  |     | NULL    |                |
+}
+' table mrbs_sesion ##
+entity mrbs_session {
+* primary_key(id) varchar(191)
+--
+* access int(11) unsigned
+--
+* data text
+}
+' table mrbs_users ##
+entity mrbs_users {
+* primary_key(id) int(11) auto_increment
+--
+* name varchar(30) unique
+--
+* level smallint(6)
+--
+* display_name varchar(191)
+--
+* password_hash varchar(255)
+--
+* email varchar(75)
+--
+* timestamp timestamp on update current_timestamp()
+--
+* last_login int(11)
+--
+* reset_key_hash varchar(255)
+--
+* reset_key_expiry int(11)
+--
+}
+' table mrbs_variables ##
+entity mrbs_variables {
+* primary_key(id) int(11) auto_increment
+--
+* variable_name varchar(80) unique
+--
+* variable_content text
+--
+}
+' tabelmrbs_zoneinfo
+entity mrbs_zoneinfo {
+* primary_key(id) int(11) auto_increment
+--
+* timezone varchar(127)
+--
+* outlook_compatible tinyint(3) unsigned
+--
+* vtimezone text
+--
+* last_updated int(11)
+--
+}
+
+' Beziehungen der tabellen
+mrbs_area"1"  --> "n" mrbs_room : "One Area can have many rooms"
+mrbs_room "1" --> "n" mrbs_entry : "one rooms can have many meetings(entry) only one at a time"
+mrbs_room "1" --> "n" mrbs_repeat : "one room can have many repeating meetings"
+mrbs_entry "1" --> "n" mrbs_participants : "a plant meeting can have many participants"
+mrbs_repeat "1" --> "1" mrbs_entry : "shows how the meeting is repeating"
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+cloud {
+[Internet Service Provider]
+}
+(Router des ISP)
+[Firewall]
+(Router 192.168.0.2 / 24)
+[Switch 1]
+node "DNS-Server" {
+(192.168.0.21 / 24)
+}
+node "Datei-Server" {
+(192.168.0.22 / 24)
+}
+[Switch 2]
+[Notebook 1]
+[Drucker 1]
+[Drucker 2]
+[WLAN AP 1]
+[WLAN AP 2]
+[WLAN AP 3]
+[WLAN AP 4]
+
+[Internet Service Provider] - (Router des ISP)
+(Router des ISP) - [Firewall]
+[Firewall] - [Switch 1]
+[Switch 1] - (Router 192.168.0.2 / 24)
+(Router 192.168.0.2 / 24) -- (192.168.0.21 / 24)
+(Router 192.168.0.2 / 24) -- (192.168.0.22 / 24)
+(Router 192.168.0.2 / 24) - [Switch 2]
+' style test
+together {
+[WLAN AP 1]
+[WLAN AP 2]
+[WLAN AP 3]
+[WLAN AP 4]
+[Notebook 1]
+[Drucker 1]
+[Drucker 2]
+}
+
+[Switch 2] -- [WLAN AP 1]
+[Switch 2] -- [WLAN AP 2]
+[Switch 2] -- [WLAN AP 3]
+[Switch 2] -- [WLAN AP 4]
+[Switch 2] -- [Drucker 1]
+[Switch 2] -- [Drucker 2]
+[Switch 2] -- [Notebook 1]
+
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+' optional zur Wissensabfrage Chen Notationskommentare
+entity artikel {
+* artikelNr
+' Unterstrich
+--
+
+}
+
+entity angebots_Pos {
+* posNr
+' Unterstrich
+* agNr
+' Unterstrich und gestrichelter Unterstrich
+ArtikelNr
+' gestrichelter Unterstrich
+--
+menge
+preis
+}
+entity angebots_Kopf {
+* agNr
+' Unterstrich
+* lifNr
+' gestrichelter Unterstrich
+--
+Datum
+}
+
+entity kreditor {
+* liefNr
+' Unterstrich
+}
+' Beziehungen
+artikel "1" - "n" angebots_Pos
+angebots_Pos "n" - "1" angebots_Kopf
+angebots_Kopf "n" - "1" kreditor
+
+
+
+@enduml
