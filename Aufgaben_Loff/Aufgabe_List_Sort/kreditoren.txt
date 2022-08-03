@@ -1,0 +1,8 @@
+00000 Eigenfertigung null null null 
+44001 Friedrich Walter AG M├╝hlstr. 8 72072 T├╝bingen 
+44002 Kugler und Grauer K├Ânigstr. 13 70173 Stuttgart 
+44003 Jonas Brauer Gmbh Hagenweg 12 72766 Reutlingen 
+44004 Ulmer Metallbau GmbH Am Marktplatz 1 72108 Rottenburg 
+44005 Georg Liebherr und S├Âhne Goethestr. 5 72070 T├╝bingen 
+44006 Kaiser & Franz OHG Dorfstr. 1 72108 Rottenburg 
+44007 Weinmann GmbH Fliederstr. 35 72379 Hechingen 
