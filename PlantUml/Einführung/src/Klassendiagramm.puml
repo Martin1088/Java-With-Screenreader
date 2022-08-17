@@ -1,0 +1,16 @@
+@startuml
+class Klassname {
+Attribute
+Metoden()
+}
+class Buch {
+Titel : String
+ISBN : int
+}
+
+Klassname - Buch
+
+class Bestellung {}
+Bestellung -|> Buch
+
+@enduml

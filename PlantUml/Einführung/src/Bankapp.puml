@@ -1,0 +1,12 @@
+@startuml
+actor  Customer
+rectangle Banking-App {
+  (Log In)
+  (Check Balance)
+  (Transfer Funds)
+  (Make Payment)
+
+}
+actor Bank
+
+@enduml
