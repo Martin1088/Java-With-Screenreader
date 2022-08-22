@@ -1,0 +1,16 @@
+@startuml
+ start
+: aufstehen;
+: Buchhandlung betreten;
+: Buch auswählen;
+: Buch bezahlen;
+: Buchladen verlassen;
+stop
+
+start
+: Sachbuch auswählen;
+note right : <<precondition>> Wissenslücke
+: Sachbuch lesen;
+note right : <<precondition>> neues Wissen
+stop
+@enduml

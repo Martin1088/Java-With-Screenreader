@@ -1,0 +1,18 @@
+@startuml
+start
+: Buch suchen;
+if () then (Fantasy)
+: Tolkin wählen;
+else (sonst)
+: Besteller wählen;
+endif
+end
+
+start
+: Gutschein erhalten;
+while () is ([Summe < Gutscheinwert])
+  :Buch wählen;
+endwhile ([sonst])
+: Bezahlen;
+end
+@enduml

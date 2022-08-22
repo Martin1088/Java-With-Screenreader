@@ -1,0 +1,16 @@
+@startuml
+start
+:Laptops kaufen;
+if () then ([Laptop kaputt])
+: Laptops entsorgen;
+end
+else ([Laptop funktioniert])
+endif
+: Wert wird ermittelt;
+if () then ([Wert < 50 Euro])
+: Laptops entsorgen;
+else ([Wert => 50 Euro])
+:Laptop verkaufen;
+endif
+end
+@enduml

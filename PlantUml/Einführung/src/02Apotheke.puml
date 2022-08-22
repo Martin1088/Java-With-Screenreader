@@ -1,0 +1,27 @@
+@startuml
+
+actor Kunde
+actor Privatperson
+actor Arzt
+Kunde <|-- Privatperson
+Kunde <|-- Arzt
+actor Apoteker
+rectangle Apotheke {
+
+(beraten)
+(bezahlen)
+(bezahlen) -- (beraten)
+Kunde - (beraten)
+Kunde - (bezahlen)
+Apoteker "1" - (beraten)
+Apoteker - (bezahlen) : verkauft
+
+(Arznei herstellen)
+(Bestellung)
+' untereinander stellen style
+(bezahlen) -[hidden]- (Arznei herstellen)
+(Arznei herstellen) -[hidden]- (Bestellung)
+Apoteker "2" - (Arznei herstellen)
+Apoteker - (Bestellung) : tätigt
+}
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+start
+fork
+: Aktuelle Position ermitteln;
+fork again
+:Ziel eingeben;
+if () then ([Abkürzung Einbeziehen])
+: Wege einbeziehen;
+else ([sonst])
+endif
+endfork
+ : Route berechnen;
+ :Route ausgeben;
+end
+@enduml

@@ -11,6 +11,11 @@ ISBN : int
 Klassname - Buch
 
 class Bestellung {}
-Bestellung -|> Buch
+Bestellung --|> Buch
+class Buchhandlung {}
+class Regal {}
+Buchhandlung *- Regal
+
+Buchhandlung o-- Buch
 
 @enduml

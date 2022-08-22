@@ -1,0 +1,15 @@
+@startuml
+start
+: Buchhandlung betreten;
+fork
+: umsehen;
+fork again
+: Kaffee trinken;
+end fork
+: Buchhandlung verlassen;
+end
+
+
+
+
+@enduml

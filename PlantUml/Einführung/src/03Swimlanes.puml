@@ -1,0 +1,20 @@
+@startuml
+|Kunde|
+start
+: Buch suchen;
+|Mitarbeiter|
+: Regal zeigen;
+|Kunde|
+: zur Kasse gehen;
+|Mitarbeiter|
+: Buch einscannen;
+|Kunde|
+: bezahlen;
+|Mitarbeiter|
+: Geld entgegen nehmen;
+|Kunde|
+: Buchladen verlassen;
+end
+
+
+@enduml

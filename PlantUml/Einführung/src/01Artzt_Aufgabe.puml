@@ -1,0 +1,25 @@
+@startuml
+class Person {
++ Name : String
++ kaufen()
+}
+class Privatperson {}
+class Arzt {}
+
+Person <|-- Privatperson
+Person <|-- Arzt
+
+class Arztnei {
++ Name : String
+}
+class Krankheit {
++ Name : String
+}
+class Syntom {
++ Name : String
+}
+
+Krankheit <|-- Syntom
+Person "1" - "0..50" Arztnei : kaufen >
+Arztnei "1" - "0..1" Krankheit : heilen
+@enduml

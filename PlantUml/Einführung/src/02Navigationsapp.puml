@@ -1,0 +1,13 @@
+@startuml
+actor Person <<human>>
+
+rectangle Navigationsapp {
+Person - (Ziel eingeben)
+Person - (Ziel ermitteln)
+(Ziel eingeben) .. (Ziel ermitteln) : <<include>>
+(Ziel ermitteln) -- (Aktuelle Position ermitteln) : <<include>>
+
+}
+(Aktuelle Position ermitteln) -- [GPS<<maschineller Akteur>>]
+
+@enduml

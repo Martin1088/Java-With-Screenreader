@@ -1,0 +1,26 @@
+@startuml
+actor Kunde
+actor Mitarbeiter
+actor Verkäufer
+actor Abteilungsleiter
+Mitarbeiter <|-- Verkäufer
+Mitarbeiter <|-- Abteilungsleiter
+
+
+rectangle Buchhandlung {
+Verkäufer "2" - (Buch kaufen)
+Kunde - (Buch kaufen)
+(Buch kaufen) .> (bezahlen) : <<Include>>
+
+(Mit Kreditkarte bezahlen) -|> (bezahlen)
+
+(Buch kaufen) <. (Als Geschenk verpackern) : <<exclude>>
+}
+
+
+
+
+[Kasse <<maschineller Akteure>>]
+
+
+@enduml
