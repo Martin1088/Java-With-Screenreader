@@ -1,6 +1,6 @@
 @startuml
 start
- : Kunde geht zur Apotheke;
+ - Kunde geht zur Apotheke;
  :beschreibt Krankkeit;
  :;
 
