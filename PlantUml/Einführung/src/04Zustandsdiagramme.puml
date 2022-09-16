@@ -1,0 +1,30 @@
+@startuml
+state "In der Buchhandlung" as buch
+buch: entry/öffneTür()
+buch: do/umschauen()
+buch: exit/verlasseBuchhandlung()
+
+'Zustand eines Buches
+state "Buch nicht vorhanden" as weg
+state "Buch vorhnden" as da
+weg -> da : bestelllen
+
+' Hund Aktion
+ state "Napf ist leer" as empty
+ state " Napf ist voll" as full
+ empty --> full: aufforden [wird aufgefüllt]
+ empty --> empty : aufforden [hat gerade schon gegessen]
+
+' hierarchische Zustände
+state Buchhandlung {
+  state Offen {
+    state Arbeiten
+    state Pause
+  }
+  state Geschlossen {
+    state Inventur
+    state Verlassen
+  }
+}
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+start
+ - Kunde geht zur Apotheke;
+ :beschreibt Krankkeit;
+ : Naturprodukt wählen;
+ if () then ([Naturprodukt nicht vorrätig})
+ fork
+ : Standartprodukt;
+ fork again
+ : Naturprodukt bestellen;
+ forkend
+ else ([Naturprodukt vorrätig})])
+: Produkt kaufen;
+endif
+: Apotheke verlassen;
+end
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+state "Navi Ein" as NaviEin
+state "Navi Aus" as NaviAus
+[*] -> NaviAus
+NaviAus -> NaviEin : ein
+NaviAus -> NaviEin : aus
+state NaviEin {
+  state "kein GPS Signal" as keinGPSSignal
+  state "GPS Signial" as GPSSignal
+  [*] -> keinGPSSignal
+  keinGPSSignal -> GPSSignal : GPS empfangen
+  GPSSignal -> keinGPSSignal : kein GPS Signal erreichbar /Hinweis ausgeben
+}
+
+@enduml
