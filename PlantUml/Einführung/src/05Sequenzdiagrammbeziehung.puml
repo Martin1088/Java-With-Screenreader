@@ -1,0 +1,16 @@
+@startuml
+actor ":Kunde" as Kunde
+actor ":Mitarbeiter" as Mitarbeiter
+activate Kunde
+Kunde -> Mitarbeiter: synchron rufen
+Kunde ->> Mitarbeiter : asynchron rufen
+activate Kunde
+Kunde -> Kunde: Buch wählen
+activate Kunde
+[o-> Kunde : Geschenk aussuchen
+activate Kunde
+activate Mitarbeiter
+Kunde -> Mitarbeiter : Beratung anfordern
+Mitarbeiter ->o] : ignoriert
+
+@enduml

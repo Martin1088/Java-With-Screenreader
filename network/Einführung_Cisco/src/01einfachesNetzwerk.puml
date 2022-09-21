@@ -1,0 +1,23 @@
+@startuml
+[PC 1]
+[PC 2]
+[PC 3]
+[Lan 1]
+[Lan 2]
+[PC 4]
+[PC 5]
+[PC 1] - [Lan 1]
+[PC 2] - [Lan 1]
+[PC 3] - [Lan 1]
+
+cloud {
+[internet Knoten 1] -- [internet Knoten 2]
+
+}
+[Lan 1] - [internet Knoten 1]
+[internet Knoten 2] - [Lan 2]
+[Lan 2] - [PC 4]
+[Lan 2] - [PC 5]
+
+
+@enduml

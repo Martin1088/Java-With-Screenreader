@@ -1,0 +1,19 @@
+@startuml
+actor ":Kunde" as Kunde
+actor ":Mitarbeiter" as Mitarbeiter
+activate Kunde
+Kunde -> Mitarbeiter: rufen d=dauer
+activate Mitarbeiter
+deactivate Mitarbeiter
+Kunde -> Mitarbeiter : rufen sec 0...1
+activate Mitarbeiter
+deactivate Mitarbeiter
+Kunde -> Mitarbeiter : rufen
+activate Mitarbeiter
+deactivate Mitarbeiter
+...{0..5min}...
+Kunde -> Mitarbeiter : anschreien
+activate Mitarbeiter
+deactivate Mitarbeiter
+
+@enduml

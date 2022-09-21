@@ -1,0 +1,18 @@
+@startuml
+actor "Alice:Kunde" as Alice
+participant ":Sytem" as System
+actor "Bob:Kunde" as Bob
+actor "Carol:" as Carol
+
+activate Alice
+activate System
+activate Bob
+activate Carol
+
+deactivate Alice
+deactivate System
+deactivate Bob
+destroy Carol
+
+
+@enduml
