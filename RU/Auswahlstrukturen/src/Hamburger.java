@@ -14,7 +14,7 @@ public class Hamburger {
     } else if (weight >= 80 && weight < 100) {
       System.out.println("Sie starten im Mittelgewicht!");
       System.out.println("Sie sind zu leicht: "+ (weight - 100) +" kg zunehmen, damit Sie im Schwergewicht starten dürfen!!");
-    } else if (weight >= 100 && weight =< 120) {
+    } else if (weight >= 100 && weight >= 120) {
       System.out.println("Sie starten im Schwergewicht!");
     } else {
       System.out.println("Sie sind um " + (weight - 120) + " kg zu schwer und kannst nicht teinehmen!");

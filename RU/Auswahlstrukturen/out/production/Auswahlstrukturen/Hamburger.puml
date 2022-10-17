@@ -1,0 +1,19 @@
+@startuml
+start
+: weight Ganzzahl;
+: myReader: Scanner;
+: Ausgabe "Bitte Gewicht in Kilogramm eingeben!";
+: myReader -> weight;
+if (weight < 60)€
+  : Ausgabe: "zu leicht" + (60 - weight);
+elseif (weight 60 bis 80) then
+  :Ausgabe: "Leichtgewicht";
+elseif (weight 81 bis 100) then
+  :Ausgabe: "Mittelgewicht";
+elseif (weight 101 bis 120 ) then
+:Ausgabe: "Schwergewicht";
+else (über 120)
+:Ausgabe: "Zu schwer" + (weight - 120);
+endif
+:Auswahl Erfolgreich;
+@enduml
