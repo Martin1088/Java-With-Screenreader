@@ -1,20 +1,40 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class Analyse {
 
-  public static void main(String[] args) {
-  //Testdaten
+  public static ArrayList<Integer> generateValues() {
+    //Testdaten
     ArrayList<Integer> testvalue = new ArrayList<>();
     Random random = new Random();
+    int randvalue;
     int min = 300;
     int max = 2000;
-    for (int i = 0; i < 100; i++ ) {
-      testvalue.add(random.nextInt(max + min) + min);
+    // textdatei zur übersicht
+    try {
+      FileWriter myWriter = new FileWriter("values.txt");
+      for (int i = 0; i < 100; i++ ) {
+        randvalue = random.nextInt(max + min) + min;
+        testvalue.add(randvalue);
+        myWriter.write(randvalue);
+        myWriter.write(" \n");
+      }
+      myWriter.close();
+    } catch (IOException e) {
+      System.out.println("Error: ");
+      e.printStackTrace();
     }
+    return testvalue;
+  }
+  public static void main(String[] args) {
+    ArrayList<Integer> testvalue = new ArrayList<>();
+    testvalue = generateValues();
     // Analyse
     int anzahl = 0;
     int higest = 0;
+    //  tool
     int gut = 0;
     int befriedigend = 0;
     int schlecht = 0;
