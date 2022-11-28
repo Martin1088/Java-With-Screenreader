@@ -1,0 +1,49 @@
+@startuml
+
+  node "switch" {
+  [Fa1]
+  [Fa2]
+  [Fa3]
+  [Fa4]
+  [Fa5]
+  [Fa6]
+  [Fa7]
+  [Fa8]
+  [Fa9]
+  [Fa10]
+  [Fa11]
+  [Fa12]
+ [Fa1] -[hidden] [Fa2]
+ [Fa2] -[hidden] [Fa3]
+ [Fa3] -[hidden] [Fa4]
+ [Fa4] -[hidden] [Fa5]
+ [Fa5] -[hidden] [Fa6]
+ [Fa6] -[hidden] [Fa7]
+ [Fa7] -[hidden] [Fa8]
+ [Fa8] -[hidden] [Fa9]
+ [Fa9] -[hidden] [Fa10]
+ [Fa10] -[hidden] [Fa11]
+ [Fa11] -[hidden] [Fa12]
+
+  }
+  [Hub]
+  [PC 0A]
+  [PC 0B]
+  [PC 0C]
+  [PC 0D]
+  [PC 0E]
+  [PC 0F]
+[Fa9] -- [Hub]
+[Hub] -- [PC 0F]
+[Hub] -- [PC 0E]
+[Fa7] -- [PC 0D]
+[Fa5] -- [PC 0C]
+[Fa3] -- [PC 0B]
+[Fa1] -- [PC 0A]
+
+
+  frame "Frame" {
+
+  }
+
+  @enduml
