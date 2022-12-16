@@ -14,7 +14,7 @@ public class Note {
       else if (notenstatistik[i] <= 5.5) {n_mal[4]++;}
       else {n_mal[5]++;}
       if (beste > notenstatistik[i]) {
-        beste = notenstatistik[i];
+      1  beste = notenstatistik[i];
       }
       sum += notenstatistik[i];
     }
