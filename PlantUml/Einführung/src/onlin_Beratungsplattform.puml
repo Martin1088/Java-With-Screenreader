@@ -1,0 +1,39 @@
+@startuml
+
+actor Anfrager
+rectangle OBP {
+rectangle KID-Website {
+  Anfrager - (Anfrage stellen Formular)
+  (Anfrage stellen Formular) .. (PIN generieren ) : <<include>>
+  (Anfrage stellen Formular) -- (individuellen Zugang generieren)
+  (individuellen Zugang generieren) -- (Status anzeigen)
+  (Status anzeigen) -- (Antwort anzeigen)
+  (Antwort anzeigen) -- (Rückfrage stellen)
+  '' Verbindungen zum Anfrager
+  Anfrager - (PIN generieren )
+  Anfrager <- (individuellen Zugang generieren)
+  Anfrager <- (Status anzeigen)
+  Anfrager <- (Antwort anzeigen)
+  Anfrager -- (Rückfrage stellen)
+}
+
+rectangle Wordpress-backend {
+  (Anfrage stellen Formular) -- (Anfwort verfassen)
+  (Anfwort verfassen) -- (Redaktion)
+  (Redaktion) . (Recherche) : <<include>>
+  (Redaktion) -- (Antwort freigeben)
+  '' verbindung zu Prozessen
+  (Status anzeigen) - (Recherche)
+  (Antwort anzeigen) - (Antwort freigeben)
+  (Anfwort verfassen) -- (Rückfrage stellen)
+}
+}
+'' Kid Team
+actor Email_Service
+actor Wissensmanagement
+'' verbindung zu anderen  Teilnehmern
+(Anfwort verfassen) -- Email_Service
+(Antwort freigeben) -- Email_Service
+(Recherche) -- Wissensmanagement
+
+@endumll

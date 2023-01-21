@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5a1581-2b6d-4bdd-8353-ee3a757592c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fakultät.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kaffeemaschine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Max_Aufgabe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Umkehren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zwei_D_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PlantUml/Einführung/src/onlin_Beratungsplattform.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,15 +28,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/JavaProjekte/Java-With-Screenreader/GR_neu/array"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjekte/Java-With-Screenreader/GR_neu/array&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Fakultät">
     <configuration name="Fakultät" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fakultät" />
@@ -106,6 +94,7 @@
       <workItem from="1669789115643" duration="6165000" />
       <workItem from="1669873917112" duration="4711000" />
       <workItem from="1670409032852" duration="14004000" />
+      <workItem from="1674317403072" duration="391000" />
     </task>
     <servers />
   </component>
