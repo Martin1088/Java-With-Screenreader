@@ -16,13 +16,17 @@ public class Umkehren {
       j++;
     }
     // Ausgabe
+    String subtest = "";
     for (Integer i_ziel: ziel) {
-      System.out.print(i_ziel + ", ");
+      subtest = subtest + i_ziel+ ", ";
     }
+    System.out.print(subtest.substring(0, (subtest.length() -2)));
     System.out.println();
+    String reverse_sub = "";
     for (Integer j_quelle: quelle) {
-      System.out.print(j_quelle + ", ");
+      reverse_sub = reverse_sub + j_quelle + ", ";
     }
+    System.out.print(reverse_sub.substring(0, (reverse_sub.length() -2)));
 
 
 
