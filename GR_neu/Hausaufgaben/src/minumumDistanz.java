@@ -5,10 +5,10 @@ public class minumumDistanz {
     int[] resultIndex = new int[2];
     int[] resultValues = new int[2];
     int distance = 0;
-    int distanceResult = 100; // hoher Wert
+    int distanceResult = (Math.abs(test[0] - test[1])); // vorbelegen zum Vergleichen
 
     // length -1 für den durchlauf
-    for (int i = 0; i < (test.length - 2); i++) {
+    for (int i = 0; i < (test.length - 1); i++) {
 
       distance = test[i + 1] - test[i];
       distance = Math.abs(distance);

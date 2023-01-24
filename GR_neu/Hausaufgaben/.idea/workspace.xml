@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b787c398-8391-44a8-b276-a58bf5e9912d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hausaufgaben.iml" afterDir="false" />
-    </list>
+    <list default="true" id="b787c398-8391-44a8-b276-a58bf5e9912d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +35,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ZweiDimention">
+    <configuration name="ZweiDimention" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZweiDimention" />
+      <module name="Hausaufgaben" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="minumumDistanz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minumumDistanz" />
       <module name="Hausaufgaben" />
@@ -52,6 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZweiDimention" />
         <item itemvalue="Application.minumumDistanz" />
       </list>
     </recent_temporary>
@@ -68,6 +69,7 @@
       <workItem from="1674557276827" duration="4280000" />
       <workItem from="1674568489757" duration="550000" />
       <workItem from="1674569601880" duration="728000" />
+      <workItem from="1674577044409" duration="4462000" />
     </task>
     <servers />
   </component>
