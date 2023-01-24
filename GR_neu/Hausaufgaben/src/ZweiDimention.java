@@ -10,7 +10,7 @@ public class ZweiDimention {
     int x;
 
     for (int i = 0; i < (c.length - 1); i++) {
-      for (int j = 1; j < (c.length); j++) {
+      for (int j = i + 1; j < (c.length); j++) {
         x = Math.abs((c[i][0] - c[j][0]));
         y = Math.abs((c[i][1] - c[j][1]));
         distance = Math.sqrt((Math.pow(x, 2) + Math.pow(y, 2)));
