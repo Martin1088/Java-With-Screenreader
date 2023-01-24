@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5a1581-2b6d-4bdd-8353-ee3a757592c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PlantUml/network/Einführung_Cisco/src/switch_aufgabe.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PlantUml/network/Einführung_Cisco/src/switch_aufgabe.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +30,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjekte/Java-With-Screenreader/GR_neu/array&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/JavaProjekte/Exam/Klassenarbeit"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Umkehren">
     <configuration name="Fakultät" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fakultät" />
@@ -96,6 +97,7 @@
       <workItem from="1669873917112" duration="4711000" />
       <workItem from="1670409032852" duration="14004000" />
       <workItem from="1674317403072" duration="3608000" />
+      <workItem from="1674396132313" duration="1443000" />
     </task>
     <servers />
   </component>
