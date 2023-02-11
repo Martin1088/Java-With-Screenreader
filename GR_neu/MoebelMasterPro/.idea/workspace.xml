@@ -1,90 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e04903-4479-4093-a129-10de5736254f" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="33e04903-4479-4093-a129-10de5736254f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MoebelMasterPro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/MoebelMasterPro.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/MoebelMasterPro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/MoebelMasterPro.userlibraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/out/production/MoebelMasterPro/Frame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/out/production/MoebelMasterPro/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/out/production/MoebelMasterPro/MoebelMasterPro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/out/production/MoebelMasterPro/Painting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/src/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/src/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/src/MoebelMasterPro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoebelMasterPro/src/Painting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/._MoebelMasterPro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/MoebelMasterPro/._.idea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/MoebelMasterPro/._out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/MoebelMasterPro/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/MoebelMasterPro/out/._production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/MoebelMasterPro/out/production/._MoebelMasterPro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OBP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OBP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OBP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OBP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OBP/src/Formen/Formen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../OBP/src/Formen/Formen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OBP/src/Formen/Rechteck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OBP/src/Formen/Rechteck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Haushaltsbuch/first_test/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1672383177">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MoebelMasterPro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#93#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Painting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,6 +46,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,12 +60,17 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="610" />
     <option name="y" value="139" />
     <option name="width" value="2560" />
     <option name="height" value="1358" />
   </component>
+  <component name="ProjectId" id="2LasMBzurADY3dqwjdk4h3aQxtV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -134,21 +96,18 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621192942998" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/JavaProjekte/Java-With-Screenreader/GR_neu/MoebelMasterPro"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.MoebelMasterPro">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -177,6 +136,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -187,6 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621166289036</updated>
+      <workItem from="1676120479641" duration="1831000" />
     </task>
     <servers />
   </component>
@@ -222,8 +183,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Moebel.java">

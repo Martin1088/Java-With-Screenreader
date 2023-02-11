@@ -3,12 +3,12 @@ import java.util.ArrayList;
 public class Housekeeping_book {
   class collection_balance_sheet {
     int income;
-    int expence;
+    int outcome;
     int end_balance;
 
-    public collection_balance_sheet(int end_balance, int expence, int income) {
+    public collection_balance_sheet(int end_balance, int outcome, int income) {
       this.end_balance = end_balance;
-      this.expence = expence;
+      this.outcome = outcome;
       this.income = income;
     }
 

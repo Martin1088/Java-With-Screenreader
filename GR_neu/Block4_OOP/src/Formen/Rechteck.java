@@ -15,10 +15,10 @@ public class Rechteck {
     return (witdh * 2) + (hight * 2);
   }
   public Rechteck(int x, int y, int witdh, int hight) {
-this.x = x;
-this.y = y;
-this.witdh = witdh;
-this.hight = hight;
+    this.x = x;
+    this.y = y;
+    this.witdh = witdh;
+    this.hight = hight;
   }
 
 }

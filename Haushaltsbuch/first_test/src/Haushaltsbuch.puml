@@ -1,6 +1,6 @@
 @startuml
 class Housekeeping_book {
-  ArrayList<entries> booking
+ booking: ArrayList<entries>
 }
 class collection_balance_sheet {
   int income;
@@ -15,4 +15,5 @@ class entries {
 }
 
 Housekeeping_book <|-- entries
+Housekeeping_book <|-- collection_balance_sheet
 @enduml

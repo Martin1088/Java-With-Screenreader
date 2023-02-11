@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0daff8e9-f4ef-45d8-9453-a30ff9e637aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GR_neu/Hausaufgaben/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/Hausaufgaben/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/.idea/MoebelMasterPro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/MoebelMasterPro.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/MoebelMasterPro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/MoebelMasterPro.userlibraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/out/production/MoebelMasterPro/Frame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/out/production/MoebelMasterPro/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/out/production/MoebelMasterPro/MoebelMasterPro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/out/production/MoebelMasterPro/Painting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/src/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/src/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/src/MoebelMasterPro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/MoebelMasterPro/src/Painting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/._MoebelMasterPro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/MoebelMasterPro/._.idea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/MoebelMasterPro/._out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/MoebelMasterPro/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/MoebelMasterPro/out/._production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/MoebelMasterPro/__MACOSX/MoebelMasterPro/out/production/._MoebelMasterPro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/OBP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/OBP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/OBP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/OBP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/OBP/src/Formen/Formen.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/OBP/src/Formen/Formen.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/OBP/src/Formen/Rechteck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/OBP/src/Formen/Rechteck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +98,7 @@
       <workItem from="1674722409633" duration="900000" />
       <workItem from="1674814384061" duration="2419000" />
       <workItem from="1675932275396" duration="1886000" />
-      <workItem from="1676117472435" duration="1512000" />
+      <workItem from="1676117472435" duration="2339000" />
     </task>
     <servers />
   </component>
