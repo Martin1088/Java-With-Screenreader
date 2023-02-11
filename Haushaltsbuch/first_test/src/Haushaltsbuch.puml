@@ -1,0 +1,18 @@
+@startuml
+class Housekeeping_book {
+  ArrayList<entries> booking
+}
+class collection_balance_sheet {
+  int income;
+  int expence
+  int end_balance
+}
+class entries {
+  String title
+  String typ
+  int amount
+  String datum
+}
+
+Housekeeping_book <|-- entries
+@enduml

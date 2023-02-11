@@ -1,0 +1,12 @@
+@startuml
+class Rechteck {
+ x: int
+int y
+int witdh
+int hight
+--
+calcutateArea()
+calculatePerimeter()
+Rechteck()
+}
+@enduml

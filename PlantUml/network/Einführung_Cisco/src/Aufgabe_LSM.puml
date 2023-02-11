@@ -1,0 +1,16 @@
+@startuml
+cloud 10.1.1.0/24 {
+}
+''Netzerkplan Remote
+[Router Remote] - [Router HQ]
+[Router Remote] -- [Switch Remote-1]
+[Router Remote] -- [Switch Remote-2]
+[Switch Remote-1] -- [PC: WS203]: 5 Hosts
+[Switch Remote-2] -- [PC: WS234]: 47 Hosts
+'' Netzwerkplan HQ
+[Router HQ] -- [Switch HQ-1]
+[Router HQ] -- [Switch HQ-2]
+[Switch HQ-1] -- [PC: WS116]: 11 Hosts
+[Switch HQ-2] -- [PC: WS145]: 28 Hosts
+
+@enduml

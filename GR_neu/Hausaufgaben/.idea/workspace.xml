@@ -28,13 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/JavaProjekte/Java-With-Screenreader/PlantUml/network"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ZweiDimention">
     <configuration name="ZweiDimention" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZweiDimention" />
@@ -70,6 +71,8 @@
       <workItem from="1674568489757" duration="550000" />
       <workItem from="1674569601880" duration="728000" />
       <workItem from="1674577044409" duration="4462000" />
+      <workItem from="1674581726285" duration="282000" />
+      <workItem from="1674666118819" duration="133000" />
     </task>
     <servers />
   </component>

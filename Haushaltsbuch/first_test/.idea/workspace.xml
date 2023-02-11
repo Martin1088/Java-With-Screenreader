@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0daff8e9-f4ef-45d8-9453-a30ff9e637aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GR_neu/array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/array/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GR_neu/Hausaufgaben/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GR_neu/Hausaufgaben/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
@@ -30,10 +31,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/JavaProjekte/Java-With-Screenreader/Haushaltsbuch/first_test"
+    "last_opened_file_path": "C:/JavaProjekte/Java-With-Screenreader/GR_neu/OBP"
   }
 }]]></component>
   <component name="RunManager">
@@ -63,6 +65,10 @@
       <workItem from="1674303721818" duration="1203000" />
       <workItem from="1674308192781" duration="3659000" />
       <workItem from="1674396813129" duration="1682000" />
+      <workItem from="1674722409633" duration="900000" />
+      <workItem from="1674814384061" duration="2419000" />
+      <workItem from="1675932275396" duration="1886000" />
+      <workItem from="1676117472435" duration="1512000" />
     </task>
     <servers />
   </component>
