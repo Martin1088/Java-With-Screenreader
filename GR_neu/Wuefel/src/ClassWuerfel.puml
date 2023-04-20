@@ -1,0 +1,19 @@
+@startuml
+class Wuerfel {
+- standartFarbe: Color
+-standardFarbe:Color
+-xPos: int
+-yPos: int
+-breite: int
+-hoehe: int
+-farbe: Color
+-wert: int
+-gueltig: boolean
+--
++<construct>> Wuefel()
++<<construct>> Wuefel()
++<<construct>> Wuefel()
++setFarbeWuefel(farbe: Color): void
+
+}
+@enduml

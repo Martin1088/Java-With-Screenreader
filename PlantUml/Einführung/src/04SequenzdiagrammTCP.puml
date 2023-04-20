@@ -1,0 +1,9 @@
+@startuml name TCP
+participant Client
+participant Host
+Client -> Host: (1) Send SYN (SEQ=100 CTL=SYN)
+note right: SYN received 
+Host -> Client: (2) Send SYN, ACK (DEQ=30 ACK=101 CTL=SYN,ACK)
+note left:SYN, ACK received 
+Client -> Host: (3) Established (SEQ=101, ACK=301 CTL=ACK)
+@enduml

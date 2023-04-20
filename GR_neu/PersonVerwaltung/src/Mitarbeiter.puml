@@ -1,0 +1,20 @@
+@startuml
+class Mitarbeiter {
+- personalNr: int
+- name: String
+- vorname: String
+- gehalt: double
+--
++ Mitarbeiter(personalNr int, name String)
++ Mitarbeiter(personalNr int, name String, vorname String, gehalt double)
++ getPersonalNr() int
++ getName() int
++ getVorname() int
++ setVoroname() void
++ getGehalt() double
++ setGehalt() double
++ druckinfo() void
++ datenVollstaendig() boolean
++ erhoeheGehalt(prozent double) void
+}
+@enduml

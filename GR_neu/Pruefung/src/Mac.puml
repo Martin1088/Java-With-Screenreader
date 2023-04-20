@@ -1,0 +1,4 @@
+@startuml
+start
+: Funktion sucheMac;
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class dreiASP2022 {
+~ {static} boolean SucheMAC(String[],String)
++ {static} void main(String[])
+}
+@enduml
