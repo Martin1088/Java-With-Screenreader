@@ -11,9 +11,10 @@ class Wuerfel {
 -gueltig: boolean
 --
 +<construct>> Wuefel()
-+<<construct>> Wuefel()
-+<<construct>> Wuefel()
++«construct» Wuerfel(xPos:int, yPos:int,breite:int, hoehe:int)
++«construct» Wuerfel(xPos:int, yPos:int,breite:int, hoehe:int, farbe: String)
 +setFarbeWuefel(farbe: Color): void
-
++wuerfeln(: void
++
 }
 @enduml
