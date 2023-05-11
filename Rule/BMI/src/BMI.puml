@@ -1,0 +1,13 @@
+@startuml
+class FitData {
+- name: String
+- gewicht: float
+- groesse: float
+--
++ setGewicht(gewicht: float): void
++ setGroesse(groesse: float): void
++ getBMI(): float
++ bmiAuswert(): void
+}
+
+@enduml
