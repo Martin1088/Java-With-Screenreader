@@ -3,7 +3,7 @@ package Dienstwagen;
 public class Mitarbeiter {
   private String name;
   private Auto seinAuto;
-public void hatAuto(Auto auto) {
+  public void hatAuto(Auto auto) {
   seinAuto = auto;
 }
   public Mitarbeiter(String name) {
