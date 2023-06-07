@@ -1,0 +1,8 @@
+@startuml
+class Mitarbeiter {
+
+}
+class Dienstwagen {
+
+}
+@enduml

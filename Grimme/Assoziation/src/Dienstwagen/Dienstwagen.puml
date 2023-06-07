@@ -1,0 +1,15 @@
+@startuml
+class Mitarbeiter {
+  -name : String
+--
+  +Mitarbeiter()
+  +getMitarbeiter()
+  +setMitarbeiter()
+}
+class Auto {
+  -kfzKennzeichen : String
+ --
+  +
+
+}
+@enduml
