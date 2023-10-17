@@ -1,0 +1,50 @@
+@startuml
+
+class SozialesNetzwerk {
+
+    --
+    + hinzufuegenMitglied(person: Person)
+    + hinzufuegenNachrict(nachricht: Nachricht)
+    + getAllNachrichten() : string
+}
+
+abstract class Nachricht{
+    # likes: int
+    --
+    + Nachricht()
+    + Nachricht(absender: Person)
+    + hinzufuegenLike()
+    + {abstract} getNachricht(): string  
+}
+
+class Person {
+    - nachname: string
+    - vorname: string
+    --
+    + Person()
+    + Person(nn: string , vn: string)
+    + getNachname(): stringgetVorname(): string
+}
+
+class Textnachricht{
+    - nachricht: string 
+    --
+    + Textnachricht()
+    + Textnachricht(nachricht: string, absender: Person) 
+    + getNachricht(): string 
+}
+
+class Bildnachricht {
+    - dateiname: string
+    --
+    + Bildnachricht()
+    + Bildnachricht(dateiname:string, absender: Person)
+    + getNachricht(): string
+}
+' Beziehung 
+SozialesNetzwerk "- mitglieder[]" o-- "0..*" Person
+SozialesNetzwerk o-- "- nachrichtenlist[]" Nachricht
+Person <-- Nachricht
+Nachricht <|- Textnachricht
+Nachricht <|- Bildnachricht
+@enduml
