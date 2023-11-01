@@ -1,4 +1,4 @@
-package Aufgabe;
+package Aufgaben;
 
 public class Person {
   private String nachname;

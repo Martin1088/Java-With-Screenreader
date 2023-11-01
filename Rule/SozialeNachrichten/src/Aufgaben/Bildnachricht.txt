@@ -1,0 +1,25 @@
+package Aufgaben;
+
+import Aufgaben.*;
+
+import Pruefung_SO19.Person;
+
+public class Bildnachricht extends Nachricht {
+  protected String dateiname;
+
+  public Bildnachricht() {
+    super();
+    this.dateiname = "";
+  }
+
+  public Bildnachricht(String dateiname, Person absevder) {
+    super(absender);
+    this.dateiname = dateiname;
+  }
+
+  @Override
+  public String getNachricht() {
+    return absender.getNachricht() + ", " + dateiname + ", " + likes;
+
+  }
+}

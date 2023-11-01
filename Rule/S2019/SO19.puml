@@ -44,7 +44,7 @@ class Bildnachricht {
 ' Beziehung 
 SozialesNetzwerk "- mitglieder[]" o-- "0..*" Person
 SozialesNetzwerk o-- "- nachrichtenlist[]" Nachricht
-Person <-- Nachricht
+Person "-absender" <-- Nachricht
 Nachricht <|- Textnachricht
 Nachricht <|- Bildnachricht
 @enduml
