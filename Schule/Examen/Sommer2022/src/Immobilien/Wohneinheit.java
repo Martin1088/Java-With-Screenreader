@@ -12,8 +12,8 @@ public class Wohneinheit{
     }
 
     public double MietpreisWohneinheit() {
-        if (anzahlZimmmer == 1) {
-            return anzahlQM * preisProQM;
+    ¡    if (anzahlZimmmer == 1) {
+             return anzahlQM * preisProQM;
         } else {
             return anzahlQM * preisProQM + (anzahlZimmmer - 1) * 50;
         }
