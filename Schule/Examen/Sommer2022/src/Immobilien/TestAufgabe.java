@@ -43,7 +43,7 @@ public class TestAufgabe {
         System.out.println("Gebaeudeverwaltung RentYourHome: ");
         gebaeudeverwaltung1.AusgabeMietGHebaeudedaten();
         System.out.println("Miete: " + gebaeudeverwaltung1.BerechneGesamteMiete());
-        
+
 
 
 
