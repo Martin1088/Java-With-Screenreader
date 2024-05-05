@@ -11,4 +11,18 @@ public class Manufacturer {
         }
         return retVal;
     }
+
+    public static void ImportData(String machineID, String valueType, String reasonOfImport, String operatiorOfImport) {
+        DataSeries ds = new DataSeries(
+                machineID,
+                importService.geDriveName(),
+                ImportService.GetTraceStartTime(),
+                valueType,
+                reasonOfImport,
+                operatiorOfImport,
+                importService.getData(valueType)
+        );
+        colletion.addSeries(ds);
+
+    }
 }
