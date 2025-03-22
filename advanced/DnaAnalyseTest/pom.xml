@@ -18,21 +18,126 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
-
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-core</artifactId>
+      <version>1.37</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-generator-annprocess</artifactId>
+      <version>1.37</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-generator-maven-plugin -->
+    <dependency>
+      <groupId>org.openjdk.jmh</groupId>
+      <artifactId>jmh-generator-maven-plugin</artifactId>
+      <version>0.5.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>versions-maven-plugin</artifactId>
+      <version>2.17.1</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
         <configuration>
           <source>14</source>
           <target>14</target>
+          <annotationProcessorPaths>
+            <path>
+                <groupId>org.openjdk.jmh</groupId>
+                <artifactId>jmh-generator-annprocess</artifactId>
+                <version>1.37</version>
+            </path>
+          </annotationProcessorPaths>
         </configuration>
       </plugin>
-    </plugins>
+
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>build-classpath</id>
+            <goals>
+              <goal>build-classpath</goal>
+            </goals>
+            <configuration>
+              <includeScope>runtime</includeScope>
+              <outputProperty>depClasspath</outputProperty>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <!--<plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+            <configuration>
+              <mainClass>org.openjdk.jmh.Main</mainClass>
+              <arguments>
+                <argument>-cp</argument>
+                <argument>${project.build.outputDirectory}:${project.build.directory}/classes</argument>
+                <argument>de.samply.benchmark.DNAProcessing</argument>
+              </arguments>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      -->
+          <!-- Plugin to build the runtime classpath -->
+          <plugin>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>build-classpath</id>
+                <goals>
+                  <goal>build-classpath</goal>
+                </goals>
+                <configuration>
+                  <includeScope>runtime</includeScope>
+                  <outputProperty>depClasspath</outputProperty>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+
+          <!-- Plugin to run the BenchmarkRunner -->
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.1.0</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>java</goal>
+                </goals>
+                <configuration>
+                  <mainClass>de.samply.benchmark.BenchmarkRunner</mainClass>
+                  <systemProperties>
+                    <systemProperty>
+                      <key>java.class.path</key>
+                      <value>${project.build.outputDirectory}${path.separator}${depClasspath}</value>
+                    </systemProperty>
+                  </systemProperties>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          </plugins>
   </build>
 </project>

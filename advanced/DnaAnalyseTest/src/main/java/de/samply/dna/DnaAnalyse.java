@@ -8,7 +8,6 @@ public class DnaAnalyse {
             }
             int lengthBase = sequences[0].length();
             int[][] result = new int[lengthBase][2];
-            System.out.println("-  red / green"); //as header
             for (int cycle = 0; cycle < lengthBase; cycle++) {
                 int redCounter = 0;
                 int greenCounter = 0;
@@ -24,7 +23,6 @@ public class DnaAnalyse {
                         greenCounter++;
                     }
                 }
-                System.out.println((cycle + 1) + ". " + redCounter + " / " + greenCounter);
                 result[cycle][0] = redCounter;
                 result[cycle][1] = greenCounter;
             }
