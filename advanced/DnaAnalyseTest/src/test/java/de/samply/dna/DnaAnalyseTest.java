@@ -23,13 +23,13 @@ public class DnaAnalyseTest {
 
 
     @Test
-    public void testGetBalance_EmptyArray() {
+    public void testGetBalanceEmptyArray() {
         String[] sequences = {};
         assertNull(DnaAnalyse.getBalance(sequences));
     }
 
     @Test
-    public void testGetBalance_NullArray() {
+    public void testGetBalanceNullArray() {
         assertNull(DnaAnalyse.getBalance(null));
     }
 }

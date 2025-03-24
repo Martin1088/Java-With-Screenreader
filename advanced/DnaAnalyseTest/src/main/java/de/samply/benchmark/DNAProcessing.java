@@ -1,6 +1,9 @@
 package de.samply.benchmark;
+
 import org.openjdk.jmh.annotations.*;
 import de.samply.dna.DnaAnalyse;
+import de.samply.dna.DnaAnalyseBits;
+
 import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.AverageTime)
@@ -16,13 +19,19 @@ public class DNAProcessing {
             "AGCTGACTGACTAGTG", "CTGACTGAGTCTAGAC", "GACTGACTAGTCAGTG",
             "TGCATCGTACGTAGCA", "ATGCTGACTGATAGCT"
     };
+    private DnaAnalyse dnaAnalyse;
+
+    @Setup(Level.Trial)
+    public void setup() {
+        dnaAnalyse = new DnaAnalyse();
+    }
+
     @Benchmark
-    public void processDNA(){
-        DnaAnalyse dnaAnalyse = new DnaAnalyse();
-        int lenghtBase = testData[0].length();
+    public void processDNA() {
+        //int lenghtBase = testData[0].length();
         int[][] result = dnaAnalyse.getBalance(testData);
 
         //long[] encodedSequence = dnaAnalyse.getSequencesAsBits(testData);
-        //int[][] bitResult = dnaAnalyse.getBalanceAsBits(encodedSequence, lenghtBase);
+        //int[][] bitResult = dnaAnalyse.getBalanceAsBits(bitData, lenghtBase);
     }
 }
