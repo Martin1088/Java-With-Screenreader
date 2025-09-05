@@ -3,7 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea/
-*.idea/
+**.idea/
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -22,10 +22,6 @@ build/
 */.DS_Store
 Thumbs.db
 
-# Maven
-.mvn/wrapper/maven-wrapper.jar
-*/.mvn/wrapper/
-
 # Temporary files
 *.swp
 *.swo
@@ -37,38 +33,38 @@ application-*.yaml
 application-*.properties
 !application.properties   # nur das Standard-File drin lassen
 
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# -----------------------------
+# Java / Maven (Spring Boot)
+# -----------------------------
+# Build outputs
+**/target/
+# Compiled classes (just in case)
+**/*.class
+# Logs
+**/*.log
+**/logs/
+# Local overrides
+**/application-*.yml
+**/application-*.yaml
+**/application-*.properties
+!**/application.properties
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-*/node_modules
-npm-debug.log
-yarn-error.log
-
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
+# -----------------------------
+# Node / Angular
+# -----------------------------
+**/node_modules/
+**/dist/
+**/.angular/
+**/.cache/
+**/.eslintcache
+**/.npm/
+**/.yarn/**
+**/.pnpm-store/
+**/coverage/
+**/.parcel-cache/
+**/.turbo/
+# Angular/CLI environment files
+**/.env
+**/.env.*
+!**/.env.example          
+**/.idea/httpRequests/
