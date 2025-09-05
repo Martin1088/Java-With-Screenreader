@@ -4,3 +4,35 @@ out/
 !**/src/test/**/out/
 .idea/
 *.idea/
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Build output
+target/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+*/.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+*/.mvn/wrapper/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Environment / config overrides
+application-*.yml
+application-*.yaml
+application-*.properties
+!application.properties   # nur das Standard-File drin lassen
