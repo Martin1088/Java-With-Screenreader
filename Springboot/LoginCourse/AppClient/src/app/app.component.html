@@ -1,0 +1,10 @@
+<div style="padding:2rem">
+  <button (click)="login()">Login with OAuth 2.0</button>
+  <button (click)="logout()">Logout</button>
+  <button (click)="whoAmI()">Call /api/me</button>
+  <button (click)="getToken()">Token</button>
+  <button (click)="getAccessToken()">Copy access token to clipboard</button>
+  <pre *ngIf="me$ | async as me">{{ me | json }}</pre>
+  <pre *ngIf="token$ | async as token">{{ token | json }}</pre>
+  <div *ngIf="error" style="color:#b00">{{ error }}</div>
+</div>

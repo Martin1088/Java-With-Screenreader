@@ -1,6 +1,7 @@
 package de.example.oauth_test;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
@@ -14,7 +15,7 @@ public class SecurityConfig
                 .authorizeHttpRequests(auth -> auth.requestMatchers("/", "public").permitAll()
                         .anyRequest().authenticated()
                 )
-                .oauth2Login();
+                .oauth2Login(Customizer.withDefaults());
 
         return http.build();
     }
